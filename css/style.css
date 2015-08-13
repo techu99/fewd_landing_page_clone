@@ -29,8 +29,7 @@ time, mark, audio, video {
 }
 
 
- /**REMOVED FROM CODE INSTEAD OF ADDING PER UNIT
-
+ /** Removed from code instead of adding per unit
  html {
   box-sizing: border-box;
   }
@@ -462,7 +461,8 @@ th {
   padding: 0;
   }
 
-/* Navigation Section */
+/** Navigation Section */
+
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -470,17 +470,15 @@ th {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
     top: 0;
-  }
-  
+}  
   .top-navigation .logo {
    padding-top: 5px; 
-  }
+}
 .top-navigation .content {
     height: 50px;
     margin: 0 auto;
     width: 970px;
-  }
-
+}
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -488,7 +486,7 @@ th {
     letter-spacing:  0.03em:;   
     font-size: 16px;
     margin-top: 25px; 
-  }
+}
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
@@ -499,7 +497,10 @@ th {
 }
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;}
+    color: #333333;
+}
+
+  /** Introduction Section */
 
 .introduction {
     background-image: url('../images/banner-image.jpg');
@@ -507,26 +508,24 @@ th {
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
-  }
+}
 .introduction h1, h3{
-  color: white;
-  text-align: center;
-  font-weight: 300;
-    }
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
 .introduction h1{
      font-size: 45px;
      padding-top: 200px;
-   }
- .introduction h3{
-   font-size: 25px;
-   padding-bottom: 25px;
-   }
+}
+.introduction h3{
+     font-size: 25px;
+     padding-bottom: 25px;
+}
 
-/**
- * The buttons
- */
+/** The buttons */
 
- .introduction .buttons {
+.introduction .buttons {
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -537,10 +536,12 @@ th {
     color: white;
     font-size: 1.125rem;
     margin: 0 auto;
-    }
-  .buttons button {
-   border: none;
-  }
+}
+.buttons button {
+    border: none;
+}
+
+  /** The Three Case Images */
 
 .cases {
     background-color: #fff;
@@ -575,14 +576,14 @@ th {
 }
 
 /* Footer */
+
 .social {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;  
     text-align: center;
-
 }
- .social hr {
+.social hr {
     border: 0;
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
@@ -596,10 +597,7 @@ th {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
-    
-     }
-
-
+}
 .social .icons > li:hover {
     cursor: pointer;
 }
@@ -617,4 +615,4 @@ th {
     font-weight: 300;
     color: #838994;
     padding: 0;
-    } 
+} 
